@@ -1,6 +1,6 @@
 
 # Python Reverse Shell for Windows / Linux
-Reverse Shell written in Python3 - Modified version of trackmastersteve/shell
+Reverse Shell written in Python3 - Modified version of TacticalCheerio/Python-Windows-Reverse-Shell
 
 You can take advantage of post exploitation modules in Metasploit by using:
 
@@ -11,7 +11,7 @@ You can take advantage of post exploitation modules in Metasploit by using:
     msf> set ExitOnSession false
     msf> run -j
 
-Modified for a less fragile shell and a check for sandbox
+Minor edits made by me for formatting and preferences.
 
 To use on Windows, create an executable using pyinstaller
 
@@ -22,3 +22,5 @@ Useful PyInstaller Options:
 > -w removes pop up windows
 >
 > -F outputs a portable .exe file in the ./dist/ folder
+
+This also works with a netcat as a listener for the attacking server.
