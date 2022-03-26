@@ -23,4 +23,4 @@ Useful PyInstaller Options:
 >
 > -F outputs a portable .exe file in the ./dist/ folder
 
-This also works with a netcat as a listener for the attacking server.
+This also works with a netcat listener
